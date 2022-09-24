@@ -1,14 +1,10 @@
 # IBM-Project-2665-1658480813
 # Deep Learning Fundus Image Analysis for Early Detection of Diabetic Retinopathy
- Health care is one of the most important and major sector in India , which
-contributes to economy of India.
-Diabetic retinopathy is one of the common complications of diabetes.
-Retinopathy is a common cause of visual loss in the world and it is a
-potentially blinding complication of diabetes that damages the eye's retina
+Diabetic Retinopathy (DR) is a common complication of diabetes mellitus, which causes lesions on the retina that affect vision. If it is not detected early, it can lead to blindness. Unfortunately, DR is not a reversible process, and treatment only sustains vision. DR early detection and treatment can significantly reduce the risk of vision loss. The manual diagnosis process of DR retina fundus images by ophthalmologists is time, effort and cost-consuming and prone to misdiagnosis unlike computer-aided diagnosis systems. 
 
 ## Team Members
-Shankar N -
-Sai Anchana - 
-Shrinitha - 
-Rasmia - 
-Kishore Kumar 
+* Shankar N 
+* Sai Anchana  
+* Shrinitha  
+* Rasmia  
+* Kishore Kumar 
