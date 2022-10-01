@@ -12,6 +12,6 @@ Diabetic Retinopathy (DR) is a common complication of diabetes mellitus, which c
 | Kishore Kumar    |  2019506044    |[Assignment](https://github.com/IBM-EPBL/IBM-Project-2665-1658480813/tree/main/Assignments/M1%20Lead) |
 
 ## Architecture
-![Architecture Diagram](/architecture.png)
+![Architecture Diagram](/Project%20Design%20%26%20Planning/Project%20Design%20Phase%201/Solution_Architecture.png)
 
 
