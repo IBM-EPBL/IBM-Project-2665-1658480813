@@ -1,2 +1,2 @@
-## TechnicL Architecture
-![Architecture Diagram](/Technology Architecture.png)
+## Technology Architecture
+![Architecture Diagram](/Technology%20Architecture.png)
