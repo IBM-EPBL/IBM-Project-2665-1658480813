@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DR | Registration</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/login.css')}}">
+</head>
+<body>    
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form" action="/reg-validate" method="post">
+        <h2>Registration</h2>
+        <input type="text" name="name" placeholder="name" required/>      
+        <input type="email" name="uid"placeholder="email address" required/>
+        <input type="password" name="pwd" placeholder="password" required/>
+        <button type="submit">create</button>
+        <p class="message">Already registered? <a href="./login.html">Sign In</a></p>
+        <span><strong>{{status}}</strong></span>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
+
