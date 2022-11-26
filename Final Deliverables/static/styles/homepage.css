@@ -1,0 +1,145 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#000;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a,i,strong {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+  color:#4CAF50;
+}
+
+.topnav a:hover::after{
+  content: '';
+  /*background-color: #ddd;*/
+  width:80%;
+  padding:0.1em;
+  background-color: #ddd;
+  color: black;
+  position: absolute;
+  top:2.3em;
+  left:0.35em;
+  margin:auto;
+}
+
+.topnav span {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding:1em;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width: 50%;
+}
+body {
+background: #f2f2f2; /* fallback for old browsers */
+background: rgb(242,242,242);
+font-family: "Roboto", sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;      
+}
+.home-page{
+  margin-top: 1em;
+}
+img{
+  grid-column: 1;
+  grid-row: span 4;
+  width:95%;  
+  align-self: center;
+  justify-content: center;
+}
+.home-page .form {
+  display: grid;
+  position: relative;
+  grid-template-columns: 45% auto;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 90%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.predict-page .form {
+  display: grid;
+  position: relative;
+  grid-template-columns: 45% auto;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 90%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 30%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.predict-page img{
+  grid-column: 1;
+  grid-row: span 4;  
+  width:95%;  
+  align-self: center;
+  justify-content: center;
+}
+.form p{
+  text-align: justify;
+  grid-column: 2;
+  font-size: 1em;
+}
+.form h3{
+  font-size: 1.5em;
+  align-self: left;
+  padding:none;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  max-width: 30%;
+  max-height: 40%;
+  border: 0;
+  padding: 1em;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}  
+.form span{
+  padding:2em;
+  margin:auto;
+}
